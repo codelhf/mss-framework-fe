@@ -1,0 +1,98 @@
+.nav-con{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    overflow: hidden;
+    background: #ffffff;
+    z-index: 999;
+}
+.nav-con .nav{
+    margin: 0 auto;
+    width: 1280px;
+    height: 60px;
+    line-height: 60px;
+}
+/* logo部分 */
+.nav .logo-con{
+    display: inline-block;
+    width: 200px;
+    height: 100%;
+    overflow: hidden;
+}
+.nav .logo-con .logo-img{
+    display: inline-block;
+    font-size: 28px;
+    font-weight: bold;
+    color: #c60023;
+}
+/* 导航部分 */
+.nav .nav-list{
+    display: inline-block;
+    overflow: hidden;
+}
+.nav .nav-list .nav-item{
+    width: 120px;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+}
+.nav .nav-list .nav-item .link{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: #0099CC;
+}
+.nav .nav-list .nav-item:hover,
+.nav .nav-list .nav-item .link:hover{
+    color: #c60023;
+    background: #eee;
+    opacity: .6;
+}
+/* 搜索框部分 */
+.nav .search-con{
+    position: relative;
+    width: 400px;
+    float: left;
+}
+.nav .search-con .search-input{
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 15px;
+    background: #ffffff;
+    border: 2px solid #c60023;
+    outline: none;
+}
+.nav .search-con .search-btn{
+    position: absolute;
+    margin-top: 8px;
+    width: 80px;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 0;
+}
+/* 用户部分 */
+.nav .user-info{
+    display: inline-block;
+    width: 200px;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.nav .user-info .user.login{
+    display: none;
+}
+.nav .user-info .user .link{
+    margin-right: 5px;
+    font-size: 18px;
+    color: #89abe3;
+}
+.nav .user-info .user .link-text{
+    margin-right: 5px;
+    font-size: 18px;
+    color: #89abe3;
+}

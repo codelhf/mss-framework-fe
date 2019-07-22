@@ -1,0 +1,17 @@
+<div class="modal-mask">
+    <div class="modal-container {{className}}">
+        <div class="modal-title-m">
+            <span class="{{type}}">{{modalTitle}}</span>
+            <span class="modal-close">
+                <i class="fa fa-times"></i>
+            </span>
+        </div>
+        <div class="modal-content-m">
+            <div class="message">{{modalMessage}}</div>
+        </div>
+        <div class="modal-footer-m">
+            <button class="btn modal-confirm">{{okText}}</button>
+            <button class="btn modal-cancel">{{cancelText}}</button>
+        </div>
+    </div>
+</div>

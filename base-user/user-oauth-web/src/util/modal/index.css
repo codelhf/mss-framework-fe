@@ -1,0 +1,101 @@
+/* modal部分 */
+.modal-mask{
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eee;
+    background: rgba(0,0,0,.4);
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 1000;
+}
+.modal-mask .modal-container{
+    position: relative;
+    margin: 10% auto;
+    width: 600px;
+    vertical-align: middle;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.modal-mask .modal-container .modal-title-m{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    border-bottom: 1px solid #eee;
+}
+.modal-mask .modal-container .modal-title-m .modal-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.modal-mask .modal-container .modal-content-m{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+.modal-mask .modal-container .modal-content-m .message{
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff6600;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.modal-mask .modal-container .modal-footer-m{
+    margin: 10px 0;
+    text-align: right;
+}
+.modal-mask .modal-container .modal-footer-m .btn{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 0 20px;
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    border-radius: 4px;
+    background: #169BD5;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    -moz-user-select : none;
+    -webkit-user-select : none;
+    -ms-user-select : none;
+    user-select : none;
+}
+.modal-mask .modal-container .modal-footer-m .modal-confirm{
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+.modal-mask .modal-container .modal-footer-m .modal-confirm:hover{
+    color: #fff;
+    background-color: #ec971f;
+    border-color: #d58512;
+}
+.modal-mask .modal-container .modal-footer-m .modal-cancel{
+    display: none;
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+.modal-mask .modal-container .modal-footer-m .modal-cancel:hover{
+    color: #fff;
+    background-color: #31b0d5;
+    border-color: #269abc;
+}
