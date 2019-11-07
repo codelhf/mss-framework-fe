@@ -23,7 +23,7 @@ input[type='checkbox']{
 }
 /* 定宽布局 */
 .w{
-    margin: 62px 0 0 210px;
+    margin: 0 auto;
     max-width: 1280px;
     position: relative;
     overflow: hidden;

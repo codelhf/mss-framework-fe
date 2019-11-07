@@ -22,6 +22,7 @@ var config = {
 		'common'             : ['./src/page/common/index.js'],
 		'index'              : ['./src/page/index/index.js'],
 		'result'             : ['./src/page/result/index.js'],
+        'user-login'         : ['./src/page/user-login/index.js'],
 	},
 	output: {
 		path        : __dirname + '/dist/',
@@ -68,6 +69,7 @@ var config = {
 		// html模板的处理
 		new HtmlWebpackPlugin(getHtmlConfig('index', '首页')),
 		new HtmlWebpackPlugin(getHtmlConfig('result', '操作结果')),
+        new HtmlWebpackPlugin(getHtmlConfig('user-login', '登录')),
 	],
 	devServer: {
         port: 8088,
